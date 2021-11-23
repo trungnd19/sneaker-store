@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&family=Oswald:wght@600;700&family=Quicksand:wght@600;700&family=Roboto:wght@400;500;700;900&family=Anton&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+	font-size: 10px;
+	height: 100%;
+}
+/*
+#header {
+	display: grid;
+	grid-template-columns: max-content max-content max-content;	
+	grid-template-rows: min-content;
+	align-items: center;
+	justify-content: center;
+}
+*/
+
+#header {
+	display: flex;
+	flex-direction: row;
+	
+	align-items: center;
+	justify-content: center;
+}
+
+#nav-bar {
+	font-size: 3rem;
+}
+
+#header-img {
+	padding-top: 2.8em;
+	text-align: end;
+	margin-right: 1em;
+}
+
+nav > a {
+	margin-left: 5rem;
+	text-decoration: none;
+	color: black;
+}
+
+nav > a:hover {
+  border-bottom: 3px solid #C99A00;
+  transition-duration: .2s;
+  cursor: pointer;
+  color: #C99A00;
+  padding-bottom: 1rem;
+}
+
+#section1 {
+	display: flex;
+	flex-direction: row;
+}
+
+h1 {
+	font-size: 6rem;
+	font-weight: 900;
+
+	font-family: 'Roboto', Arial, sans-serif;
+}
+
+#shoes-cap {
+	margin-left: 2rem;
+}
+
+#check-button {
+	width: 15rem;
+	height: 5rem;
+	background-color: #B10A06;
+	color: white;
+	border-style: none;
+}
+
+#shoes-cap > p {
+	font-size: 4rem;
+	max-width: 95%;
+	text-align: justify;
+	margin-top: -1rem;
+}
+
+.featured-shoes {
+	width: 100%;
+	height: auto;
+	margin-left: 20px;
+}
+
+
+
+/*
+.featured-shoes {
+	grid-column-start: 1;
+	grid-column-end: 4;
+
+	max-width: 64%;
+	
+	margin-left: 20px;
+
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+h1 {
+	font-size: 8vh;
+	font-weight: 900;
+
+	grid-column-start: 3;
+	grid-column-end: 5;
+	
+	grid-row-start: 1;
+	grid-row-end: 2;
+	
+	margin-left: 20px;
+	font-family: 'Roboto', Arial, sans-serif;
+
+	height: 30%;
+	align-items: stretch;
+}
+
+#washed-out-cap {
+	font-size: 2.8rem;
+	grid-column-start: 3;
+	grid-column-end: 5;
+	margin-left: 20px;
+
+	grid-row-start: 2;
+	grid-row-end: 3;
+	
+	margin-top: -3rem;
+
+	line-height: 3.5rem;
+	max-width: 100%;
+	margin-right: 20px;
+	font-style: "sans-serif";
+
+
+
+}
+
+#check-button {
+	grid-column-start: 3;
+	grid-column-end: 4;
+
+	grid-row-start: 1;
+	width: 12rem;
+	height: 5rem;
+	background-color: #B10A06;
+	color: white;
+	margin-top: 45rem;
+	border-style: none;
+	margin-left: 20px;
+}
+*/
+
+h2 {
+	text-align: center;
+	font-size: 7rem;
+	font-weight: 500;
+	font-family: 'Anton', sans-serif;
+	margin-top: 15rem;
+}
+
+#section2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;	
+	grid-template-rows: 1fr;
+	grid-gap: -20px;
+}
+
+.shop-item1, .shop-item2, .shop-item3 {
+	width: 100%;
+	height: auto;
+		
+}
+
+
+#buy-shoes-button, #buy-clothing-button, #buy-apparel-button {
+	width: 12rem;
+	height: 5rem;
+	background-color: #B10A06;
+	color: white;
+	border-style: none;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+
+/*
+.shop-item1, .shop-item2, .shop-item3 {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.shop-item1 {
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+}
+
+.shop-item2 {
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	margin-left: -50px;
+}
+
+.shop-item3 {
+	grid-column: 3 / 4;
+	grid-row: 1 / 2;
+	margin-left: -50px;
+}
+
+#buy-shoes-button, #buy-clothing-button, #buy-apparel-button {
+	width: 12rem;
+	height: 5rem;
+	background-color: #B10A06;
+	color: white;
+	border-style: none;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#buy-clothing-button, #buy-apparel-button {
+margin-left: 130px;
+	}
+
+
+	h3 {
+	text-align: center;
+	font-size: 7rem;
+	font-weight: 500;
+	font-family: 'Anton', sans-serif;
+	
+}
+
+*/
+
+h3 {
+	text-align: center;
+	font-size: 7rem;
+	font-weight: 500;
+	font-family: 'Anton', sans-serif;
+	margin-top: 100px;
+	
+}
+
+#section3 > p {
+	font-size: 2.5rem;
+	max-width: 55%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#section3 > form {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	margin-top: 3rem;
+}
+
+#email {
+	width: 40rem;
+	height: 5rem;
+	border-radius: 5px;
+	text-indent: 10px;
+}
+
+#subscribe-button {
+	width: 12rem;
+	height: 5rem;
+	margin-left: 1rem;
+	background-color: #B10A06;
+	color: white;
+	border-style: none;
+}
+
+#section4 {
+	display: flex;
+	flex-direction: row;
+	margin-top: 10rem;
+}
+
+h4 {
+	font-size: 4rem;
+	text-align: center;
+	margin-bottom: 10px;
+	
+}
+
+#video-caption {
+	margin-left: 1em;
+	margin-top: -55px;
+}
+
+#section4  p {
+	font-size: 1.8rem;
+	height: 70%;
+	width: 95%;
+	margin-top: 40px;
+	text-align: justify;
+	margin-right: 30px;
+}
+
+#video {
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h5 {
+	text-align: center;
+	font-size: 7rem;
+	font-weight: 500;
+	font-family: 'Anton', sans-serif;
+}
+
+#search-location-button {
+	width: 12rem;
+	height: 5rem;
+	margin-left: 1rem;
+
+
+	background-color: rgba(0,0,0,0);
+    border: 3px solid #B10A06;
+    color: white;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+
+    margin-top: -50px;
+}
+
+
+#locate-store {
+	display: flex;
+	flex-direction: column;
+	
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+
+	background: linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .75)), url(https://i.ibb.co/K6PBqTC/Converse-Melbourne-Store7-original-hd-1600.jpg) no-repeat bottom;
+    background-size: cover;
+    height: 700px;
+    color: white;   
+}
+
+#section5 {
+	margin-top: 100px;
+}
+
+footer {
+	text-align: center;
+	font-size: 6rem;
+	margin-top:15rem;
+}
+
+footer > p {
+	font-size: 3rem;
+}
+
+footer > a {
+	margin-right: 50px;
+	text-align: center;
+	border-bottom: none;
+	color: black;
+}
+
+/*@media only screen and (min-width: 200px) and (max-width: 830px) { 
+    //Put your CSS here for 200px to 830px width devices (cover all width between 200px to 767px // */
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 830px) {
+#header {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+#header-img {
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+	padding-top: 30px;
+	
+	margin-right: auto;
+	margin-left: auto;
+	
+	height: 130px;
+	margin-top: 0;
+}
+
+
+#nav-bar {
+	display: flex;
+	flex-direction: column;
+	font-size: 3rem;
+	
+}
+
+#nav-bar > a {
+margin-left: 0;
+text-align: center;
+
+}
+
+.nav-link2, .nav-link3, .nav-link4 {
+	padding-top: 3rem;
+}
+
+#section1 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.featured-shoes {
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+h1 {
+	font-size: 5rem;
+	font-weight: 700;
+	font-family: 'Roboto', Arial, sans-serif;
+	text-align: center;
+}
+
+#shoes-cap > p {
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+
+#shoes-cap {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+  	align-items: center;
+  	margin-left: auto;
+}
+
+
+h2 {
+	font-size: 5rem;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 10rem;
+}
+
+#section2 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat (6, auto);
+	grid-gap: 0;
+}
+
+#buy-shoes-button {
+	grid-row: 2 / 3;
+	margin-bottom: 30px;
+}
+
+#buy-clothing-button {
+	grid-row: 4 / 5;
+	margin-bottom: 30px;
+}
+
+#buy-apparel-button {
+	grid-row: 6/7;
+}
+
+h3 {
+	font-size: 5rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+#section3 > p {
+	/*font-size: 2.5rem;
+	max-width: 55%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;*/
+	margin-top: -30px;
+	max-width: 90%;
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+#section3 > form {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	margin-top: 3rem;
+}
+
+#form1 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#email {
+	width: 30rem;
+	height: 5rem;
+	border-radius: 5px;
+	text-indent: 10px;
+}
+
+
+#subscribe-button {
+	margin-top: 10px;
+}
+
+#section4 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+#video {
+	position: relative; 
+	padding-bottom: 56.25%;
+	padding-top: 30px; 
+	height: 0; 
+	overflow: hidden; 
+	margin-top: -30px;
+	margin-left: 0.3rem;
+}
+
+#video iframe, #video object, #video embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#section4  p {
+	font-size: 2rem;
+	height: 70%;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 20px;
+	
+}
+
+h5 {
+
+	font-size: 4.5rem;
+	font-weight: 700;
+	text-align: center;	
+}
+
+#locate-store {
+    height: 600px; 
+}
+
+#section5 {
+	margin-top: 90px;
+}
+
+footer {
+	text-align: center;
+	font-size: 3rem;
+	margin-top:5rem;
+}
+
+footer > p {
+	font-size: 2rem;
+}
+
+footer > a {
+	margin-right: 0;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
